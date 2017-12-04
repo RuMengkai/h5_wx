@@ -292,11 +292,17 @@ img {
 .page19 .p19-2 {
   margin-top: .2rem;
 }
+.page19 .p19-2 img {
+  width: 92% !important;
+}
 .page19 .p19-3 {
   margin-top: .2rem;
 }
 .page19 .p19-4 {
   margin-top: .2rem;
+}
+.page19 .p19-4 img {
+  width: 92% !important;
 }
 .page19 .p19-5 {
   position: absolute;

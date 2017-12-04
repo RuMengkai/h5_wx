@@ -18,6 +18,8 @@
 })(document, window);
 var _h=document.documentElement.clientHeight;
 var _w=document.documentElement.clientWidth;
+console.log(_w+"|"+_h);
+console.log(_w/_h);
 window.re=_w/_h;
 var bgimg=document.getElementsByClassName('bg');
 for (var i = 0; i < bgimg.length; i++) {
