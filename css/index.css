@@ -124,14 +124,10 @@ body {
   left: 50%;
   text-decoration: none;
 }
-.width-100 {
-  width: 100% !important;
-}
 img {
   width: 100%;
   height: 100%;
   display: block;
-  margin: auto;
 }
 .page1,
 .page2,
@@ -294,6 +290,7 @@ img {
 }
 .page19 .p19-2 img {
   width: 92% !important;
+  margin: auto;
 }
 .page19 .p19-3 {
   margin-top: .2rem;
@@ -303,6 +300,7 @@ img {
 }
 .page19 .p19-4 img {
   width: 92% !important;
+  margin: auto;
 }
 .page19 .p19-5 {
   position: absolute;
@@ -600,7 +598,7 @@ img {
 }
 .page13 .p-13-4 {
   position: absolute;
-  bottom: .5rem;
+  bottom: .8rem;
 }
 .page13 .p-13-5 {
   position: absolute;
