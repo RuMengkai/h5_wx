@@ -38,7 +38,13 @@ body {
   height: 36px;
   cursor: pointer;
   background: url("../img/music.png");
-  background-position: 36 0px;
+  background-position: 36px 0px;
+  background-size: 74px;
+  background-repeat: no-repeat;
+}
+.rotate {
+  -webkit-animation: rotating 1.2s linear infinite;
+  animation: rotating 1.2s linear infinite;
 }
 .container,
 .swiper-container {
@@ -160,7 +166,7 @@ img {
   background-color: #fff;
 }
 .page1 .p-1-1 {
-  margin-top: .1rem;
+  margin-top: .4rem;
 }
 .page1 .p-1-2 {
   margin-top: .3rem;
@@ -189,7 +195,7 @@ img {
 }
 .page3 .p-3-4 {
   position: absolute;
-  bottom: 1.2rem;
+  bottom: 1rem;
 }
 .page4 .p-4-1 {
   margin-top: .1rem;
@@ -200,14 +206,15 @@ img {
   left: 0px;
 }
 .page4 .p-4-3 {
-  margin-top: .3rem;
+  margin-top: 0rem;
+  height: 4.2rem;
 }
 .page4 .p-4-4 {
   margin-top: 0rem;
 }
 .page4 .p-4-5 {
   position: absolute;
-  bottom: .4rem;
+  bottom: 0rem;
 }
 .page16 .p16-1 {
   margin-top: .4rem;
@@ -219,14 +226,14 @@ img {
   margin-top: .8rem;
 }
 .page16 .p16-4 {
-  margin-top: 1rem;
+  margin-top: .8rem;
 }
 .page16 .p16-5 {
-  margin-top: .5rem;
+  margin-top: .4rem;
 }
 .page16 .p16-6 {
   position: absolute;
-  bottom: .8rem;
+  bottom: .4rem;
 }
 .page17 .p17-1 {
   margin-top: .4rem;
@@ -248,20 +255,20 @@ img {
   margin-top: .4rem;
 }
 .page18 .p18-2 {
-  margin-top: .5rem;
+  margin-top: .2rem;
 }
 .page18 .p18-3 {
-  margin-top: .4rem;
+  margin-top: .2rem;
 }
 .page18 .p18-4 {
-  margin-top: .3rem;
+  margin-top: .1rem;
 }
 .page18 .p18-5 {
   margin-top: 0rem;
 }
 .page18 .p18-6 {
   position: absolute;
-  bottom: .4rem;
+  bottom: .6rem;
 }
 .page5 .p-5-1 {
   margin-top: .1rem;
@@ -270,23 +277,23 @@ img {
   margin-top: .1rem;
 }
 .page5 .p-5-3 {
-  margin-top: .3rem;
+  margin-top: 0rem;
 }
 .page5 .p-5-4 {
   position: absolute;
   bottom: .4rem;
 }
 .page19 .p19-1 {
-  margin-top: .2rem;
+  margin-top: .4rem;
 }
 .page19 .p19-2 {
-  margin-top: .1rem;
+  margin-top: .2rem;
 }
 .page19 .p19-3 {
   margin-top: .2rem;
 }
 .page19 .p19-4 {
-  margin-top: .1rem;
+  margin-top: .2rem;
 }
 .page19 .p19-5 {
   position: absolute;
@@ -297,6 +304,7 @@ img {
 }
 .page6 .p-6-2 {
   margin-top: 0rem;
+  height: 3.5rem;
 }
 .page6 .p-6-3 {
   margin-top: 0rem;
@@ -312,21 +320,24 @@ img {
   margin-top: .4rem;
 }
 .page20 .p20-2 {
-  margin-top: 2.2rem;
+  margin-top: 1.8rem;
 }
 .page20 .p20-3 {
-  margin-top: .4rem;
+  margin-top: .3rem;
 }
 .page20 .p20-4 {
-  margin-top: .9rem;
+  margin-top: .3rem;
 }
 .page20 .p20-5 {
   position: absolute;
-  bottom: .4rem;
+  bottom: .7rem;
 }
 .page20 .p20-6 {
   position: absolute;
   top: .9rem;
+}
+.page20 .p20-6 img {
+  opacity: 0.4;
 }
 .page21 .p21-1 {
   margin-top: .4rem;
@@ -335,17 +346,17 @@ img {
   margin-top: .4rem;
 }
 .page21 .p21-3 {
-  margin-top: 1.2rem;
+  margin-top: .5rem;
 }
 .page21 .p21-4 {
-  margin-top: .9rem;
+  margin-top: .8rem;
 }
 .page21 .p21-5 {
   position: absolute;
-  bottom: .3rem;
+  bottom: .6rem;
 }
 .page22 .p22-1 {
-  margin-top: .4rem;
+  margin-top: .8rem;
 }
 .page22 .p22-2 {
   margin-top: .9rem;
@@ -374,7 +385,7 @@ img {
   margin-top: .4rem;
 }
 .page24 .p24-2 {
-  margin-top: .9rem;
+  margin-top: .2rem;
 }
 .page24 .p24-3 {
   position: absolute;
@@ -383,6 +394,9 @@ img {
 .page24 .p24-5 {
   position: absolute;
   top: .4rem;
+}
+.page24 .p24-5 img {
+  opacity: 0.6;
 }
 .page25 .p25-1 {
   margin-top: .4rem;
@@ -404,10 +418,10 @@ img {
   margin-top: .4rem;
 }
 .page26 .p26-2 {
-  margin-top: .2rem;
+  margin-top: 0rem;
 }
 .page26 .p26-3 {
-  margin-top: .8rem;
+  margin-top: 0rem;
 }
 .page26 .p26-4 {
   position: absolute;
@@ -462,20 +476,17 @@ img {
   margin-top: .2rem;
 }
 .page29 .p29-3 {
-  margin-top: .8rem;
+  margin-top: .4rem;
 }
-.page29 .p29-3 {
-  margin-top: .8rem;
-}
-.page29 .p29-3 {
-  margin-top: .8rem;
+.page29 .p29-4 {
+  margin-top: .4rem;
 }
 .page29 .p29-line {
   position: absolute;
   top: 1.9rem;
 }
 .page30 .p30-1 {
-  margin-top: 0rem;
+  margin-top: 0.5rem;
 }
 .page30 .p30-2 {
   margin-top: 0rem;
@@ -505,6 +516,9 @@ img {
   position: absolute;
   top: 1rem;
   left: 0rem;
+}
+.page7 .p-7-5 img {
+  opacity: 0.4;
 }
 .page8 .p-8-1 {
   margin-top: .4rem;
@@ -543,11 +557,11 @@ img {
   margin-top: .4rem;
 }
 .page11 .p-11-2 {
-  margin-top: .4rem;
+  margin-top: .2rem;
 }
 .page11 .p-11-3 {
   position: absolute;
-  bottom: -0.1rem;
+  bottom: -0.2rem;
 }
 .page12 .p-12-1 {
   margin-top: .4rem;
@@ -570,27 +584,34 @@ img {
   top: 1rem;
   left: 0rem;
 }
+.page13 .p-13-2 img {
+  opacity: 0.4;
+}
 .page13 .p-13-3 {
   margin-top: 1rem;
 }
 .page13 .p-13-4 {
   position: absolute;
-  bottom: -0.1rem;
+  bottom: .8rem;
+}
+.page13 .p-13-5 {
+  position: absolute;
+  bottom: 0rem;
 }
 .page14 .p-14-1 {
   margin-top: .3rem;
 }
 .page14 .p-14-2 {
-  margin-top: .2rem;
+  margin-top: .1rem;
 }
 .page14 .p-14-3 {
-  margin-top: .3rem;
+  margin-top: .1rem;
 }
 .page14 .p-14-4 {
-  margin-top: .3rem;
+  margin-top: .2rem;
 }
 .page14 .p-14-5 {
-  margin-top: .2rem;
+  margin-top: .1rem;
 }
 .page14 .p-14-6 {
   position: absolute;
@@ -613,5 +634,5 @@ img {
 }
 .page15 .p-15-6 {
   position: absolute;
-  bottom: .5rem;
+  bottom: .8rem;
 }
