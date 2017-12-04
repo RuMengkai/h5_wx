@@ -10,6 +10,7 @@
 				docEl.style.fontSize = 100 * (clientWidth / 640) + 'px';
 			}
 		};
+
 	if (!doc.addEventListener) return;
 	win.addEventListener(resizeEvt, recalc, false);
 	recalc()
@@ -18,7 +19,6 @@
 })(document, window);
 var _h=document.documentElement.clientHeight;
 var _w=document.documentElement.clientWidth;
-window.re=_w/_h;
 var bgimg=document.getElementsByClassName('bg');
 for (var i = 0; i < bgimg.length; i++) {
 	bgimg[i].children[0].style.height=_h+"px";

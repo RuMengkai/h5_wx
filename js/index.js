@@ -15,12 +15,6 @@ music.onclick=function (event) {
 
 /* 兼容iPhone背景音乐自动播放 */
 
-if(re>=0.6){
-  var imglist=$('img');
-  imglist.width("90%");
-  console.log(imglist);
-}
-
 window.onload=function () {
   setTimeout(function () {
     music.click();
