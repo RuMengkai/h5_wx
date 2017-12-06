@@ -8,12 +8,20 @@ a[href*="www.cnzz.com/stat/website.php"] {
 #content {
   display: none;
 }
+#pc .pc-img {
+  width: 750px;
+  margin: auto;
+  height: auto;
+}
+#pc .pc-img img {
+  display: block;
+  overflow: hidden;
+}
 html,
 body {
   width: 100%;
   color: #cd8b56;
   height: 100%;
-  overflow: hidden;
   background-color: #eee;
   font-size: 12px;
 }

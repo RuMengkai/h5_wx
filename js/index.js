@@ -33,11 +33,13 @@ document.addEventListener("WeixinJSBridgeReady", function () {
 
 
 if (!browserRedirect()) {
-  alert("请在微信中打开");
+  alert("请在微信中打开，查看全面报告");
   var dom = document.getElementById("content").style.display = "none"
+  var dom = document.getElementById("id").style.display = "block"
   audio.pause();
 }else{
   var dom = document.getElementById("content").style.display = "block"
+  var dom = document.getElementById("id").style.display = "none"
   audio.play();
 }
 
