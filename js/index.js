@@ -42,6 +42,7 @@ if (!browserRedirect()) {
   alert("请在微信中打开，查看全面报告");
   document.getElementById("content").style.display = "none"
   document.getElementById("pc").style.display = "block"
+  window.location.href = "http://image.51xy8.com/1512721841279.pdf"
   audio.pause();
 }else{
   document.getElementById("content").style.display = "block"
