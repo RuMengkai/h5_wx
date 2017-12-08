@@ -659,10 +659,10 @@ img {
 }
 .lookPDF a {
   display: block;
-  width: 120px;
+  width: 130px;
   height: 35px;
   line-height: 35px;
-  font-size: 16px;
+  font-size: 14px;
   margin-top: 50px;
   margin: auto;
   background: #d8b071;
