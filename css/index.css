@@ -17,6 +17,9 @@ a[href*="www.cnzz.com/stat/website.php"] {
   display: block;
   overflow: hidden;
 }
+.width-100 {
+  width: 100% !important;
+}
 html,
 body {
   width: 100%;
@@ -136,6 +139,7 @@ img {
   width: 100%;
   height: 100%;
   display: block;
+  margin: auto;
 }
 .page1,
 .page2,
@@ -606,7 +610,7 @@ img {
 }
 .page13 .p-13-4 {
   position: absolute;
-  bottom: .8rem;
+  bottom: .5rem;
 }
 .page13 .p-13-5 {
   position: absolute;

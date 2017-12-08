@@ -15,6 +15,12 @@ music.onclick=function (event) {
 
 /* 兼容iPhone背景音乐自动播放 */
 
+if(re>=0.6){		
+  var imglist=$('img');		
+  imglist.width("90%");		
+  console.log(imglist);		
+}
+
 window.onload=function () {
   setTimeout(function () {
     music.click();
@@ -34,12 +40,12 @@ document.addEventListener("WeixinJSBridgeReady", function () {
 
 if (!browserRedirect()) {
   alert("请在微信中打开，查看全面报告");
-  var dom = document.getElementById("content").style.display = "none"
-  var dom = document.getElementById("id").style.display = "block"
+  document.getElementById("content").style.display = "none"
+  document.getElementById("pc").style.display = "block"
   audio.pause();
 }else{
-  var dom = document.getElementById("content").style.display = "block"
-  var dom = document.getElementById("id").style.display = "none"
+  document.getElementById("content").style.display = "block"
+  document.getElementById("pc").style.display = "none"
   audio.play();
 }
 
