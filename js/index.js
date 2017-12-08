@@ -1,17 +1,17 @@
 var flag=true;
-var audio = document.getElementById('audio-source');
-var music = document.getElementById('music');
-music.onclick=function (event) {
-  if (flag) {
-    event.target.style.backgroundPosition='left';
-    flag=false;
-    audio.pause();
-  }else{
-    event.target.style.backgroundPosition='right';
-    flag=true;
-    audio.play();
-  }
-}
+// var audio = document.getElementById('audio-source');
+// var music = document.getElementById('music');
+// music.onclick=function (event) {
+//   if (flag) {
+//     event.target.style.backgroundPosition='left';
+//     flag=false;
+//     // audio.pause();
+//   }else{
+//     event.target.style.backgroundPosition='right';
+//     flag=true;
+//     // audio.play();
+//   }
+// }
 
 /* 兼容iPhone背景音乐自动播放 */
 
@@ -23,31 +23,31 @@ if(re>=0.6){
 
 window.onload=function () {
   setTimeout(function () {
-    music.click();
-    music.click();
+    // music.click();
+    // music.click();
   },12);
 }
 setTimeout(function(){
   // $(window).scrollTop(1);
 },0);
-audio.play();
+// audio.play();
 document.addEventListener("WeixinJSBridgeReady", function () {
  WeixinJSBridge.invoke('getNetworkType', {}, function (e) {
-   audio.play();
+  //  audio.play();
  });
 }, false);
 
 
 if (!browserRedirect()) {
-  alert("请在微信中打开，查看全面报告");
+  // alert("请在微信中打开，查看全面报告");
   document.getElementById("content").style.display = "none"
   document.getElementById("pc").style.display = "block"
-  window.location.href = "http://image.51xy8.com/1512721841279.pdf"
-  audio.pause();
+  // window.location.href = "http://image.51xy8.com/1512721841279.pdf"
+  // audio.pause();
 }else{
   document.getElementById("content").style.display = "block"
   document.getElementById("pc").style.display = "none"
-  audio.play();
+  // audio.play();
 }
 
 
